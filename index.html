@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deine Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Dein Firmenname</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+          <li><a href="#about" class="hover:text-blue-600">Über uns</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-20 text-center">
+      <h2 class="text-4xl font-bold mb-4">Willkommen bei [Dein Produkt]</h2>
+      <p class="text-lg mb-8">Beschreibe hier kurz dein Angebot und deine Mission.</p>
+      <a href="#contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Jetzt starten</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold mb-2">Feature 1</h3>
+      <p>Beschreibung des Features.</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold mb-2">Feature 2</h3>
+      <p>Beschreibung des Features.</p>
+    </div>
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold mb-2">Feature 3</h3>
+      <p>Beschreibung des Features.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold mb-4">Über uns</h2>
+      <p>Hier etwas über dich oder dein Unternehmen.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-7xl mx-auto px-4 py-16 bg-white">
+    <h2 class="text-3xl font-bold mb-4">Kontakt</h2>
+    <form action="#" class="grid grid-cols-1 gap-4 max-w-md">
+      <input type="text" placeholder="Name" class="border p-2 rounded" required>
+      <input type="email" placeholder="E-Mail" class="border p-2 rounded" required>
+      <textarea placeholder="Nachricht" class="border p-2 rounded" rows="4" required></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Absenden</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p>&copy; 2025 Dein Firmenname. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+</body>
+</html>
